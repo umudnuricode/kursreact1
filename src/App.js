@@ -1,9 +1,17 @@
+import React, { useState } from 'react';
 import './App.css';
+const [number, setNumber] = useState(0);
+
+function deyis() {
+  setNumber(Math.random());
+}
 
 function App() {
+
   return (
     <div className="App">
-      <h1>Umud Nuri </h1>
+      <button onClick={deyis}>Ededi deyis</button>
+      <p>{number}</p>
     </div>
   );
 }
