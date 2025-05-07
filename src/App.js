@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import './App.css';
-const [number, setNumber] = useState(0);
-
-function deyis() {
-  setNumber(Math.random());
-}
 
 function App() {
+  const [number, setNumber] = useState(0);
+
+  function deyis() {
+    setNumber(Math.random());
+  }
 
   return (
     <div className="App">
