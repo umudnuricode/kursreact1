@@ -28,24 +28,24 @@ function App() {
   return (
     <div className="App">
       <div className='menu'>
-      <NavLink to="/">
+      <NavLink to="/kursreact1/">
           Esas Sehife
       </NavLink>
-      <NavLink to="/Haqqında">
+      <NavLink to="/kursreact1/Haqqında">
           Haqqinda
       </NavLink>
-      <NavLink to="/İş nümunələri">
+      <NavLink to="/kursreact1/İş nümunələri">
       Isler
       </NavLink>
-      <NavLink to="/Əlaqə məlumatları">
+      <NavLink to="/kursreact1/Əlaqə məlumatları">
           Elaqe
       </NavLink>
       </div>
     <Routes>
-      <Route path="/" element={<Main />}></Route>
-      <Route path="/Haqqında" element={<Haqqinda />}></Route>
-      <Route path="/İş nümunələri" element={<Isler />}></Route>
-      <Route path="/Əlaqə məlumatları" element={<Elaqe />}></Route>
+      <Route path="/kursreact1/" element={<Main />}></Route>
+      <Route path="/kursreact1/Haqqında" element={<Haqqinda />}></Route>
+      <Route path="/kursreact1/İş nümunələri" element={<Isler />}></Route>
+      <Route path="/kursreact1/Əlaqə məlumatları" element={<Elaqe />}></Route>
     </Routes>
     </div>
   );
