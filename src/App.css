@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+.menu{
+  width: 100%;
+  padding: 20px;
+}
+.menu a{
+  margin: 20px;
+}
+.active{
+  color: red;
+}
